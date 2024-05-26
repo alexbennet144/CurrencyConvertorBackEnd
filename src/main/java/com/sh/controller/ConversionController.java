@@ -16,7 +16,7 @@ public class ConversionController {
 	public static final int DOLLAR_VALUE = 75;
 
 	@GetMapping("/convert")
-	@ApiOperation(value = "Get an example", notes = "Get an example by ID")
+	@ApiOperation(value = "Get an examplee", notes = "Get an example by ID")
 	public Double convertCurrency(@RequestParam Double amount, @RequestParam String toCurrency,
 			@RequestParam String fromCurrency) {
 

@@ -8,7 +8,7 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spring.web.plugins.Docket;
 
-@Configuration
+@Configuration 
 public class SwaggerConfig {
 
     @Bean
